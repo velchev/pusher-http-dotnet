@@ -9,4 +9,4 @@ before_install:
 before_script:
   - nuget restore pusher-dotnet-server.sln
 after_script:
-  - ./package.cmd
+  - ./package.bsh
